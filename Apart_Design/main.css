@@ -16,22 +16,21 @@ Header
 .apart-header {
     display: flex;
     justify-content: space-between;
-    padding: 4vw 4vw;
-    margin-bottom: -8vh;
+    padding: 8vh 4vw;
 }
 
 /*=====================================
 Main
 =====================================*/
 main {
-    height: 84vh;
+    height: 100vh;
+    margin-top: -16vh;
 }
 
 .apart-home-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8vh;
 } 
 
 .apart-home-main ul {
@@ -50,7 +49,7 @@ main {
 Footer
 =====================================*/
 .apart-footer {
-    padding: 3vw 4vw;
+    padding: 8vh 4vw;
     background-color: #F2F2F2;
 }
 
@@ -72,7 +71,7 @@ About
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
  }
  
  .apart-about p {
@@ -85,3 +84,45 @@ About
 Media Queries
 =====================================*/
 
+@media (max-width: 993px) {
+	
+
+}
+
+@media (max-width: 769px) {
+
+/*=====================================
+Main
+=====================================*/
+
+    .apart-home-main ul {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .apart-home-main li {
+        display: flex;
+        align-items: center;
+    }
+ 
+}
+
+
+@media (max-width: 577px) {
+
+    /*=====================================
+    Footer
+    =====================================*/
+
+    .apart-footer .footer-con ul li {
+        display: block;
+        margin: 4vh 10vw;
+    }
+    
+}
+
+@media (max-width: 281px) {
+
+
+}
