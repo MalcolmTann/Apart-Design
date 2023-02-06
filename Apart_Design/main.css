@@ -66,7 +66,7 @@ Footer
 /*=====================================
 About
 =====================================*/
- .apart-about-main {
+ .apart-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +74,7 @@ About
     margin-bottom: 5vh;
  }
  
- .apart-about-main p {
+ .apart-about p {
      max-width: 30em;
      margin-bottom: 1em;
      line-height: 1.5;
