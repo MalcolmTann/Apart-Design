@@ -1,16 +1,85 @@
-.about {
-   height: 100vh;
-   width: 100vw;
-   display: flex;
-   justify-content: center;
+/*=====================================
+Global
+=====================================*/
+
+body {
+    color:#707070;
+    font-family: Helvetica, sans-serif;
 }
 
-.about main {
-    align-self: center;
+a {
+    color: #707070;
 }
 
-.about p {
-    max-width: 30em;
-    margin-bottom: 30px;
-    line-height: 1.5;
+/*=====================================
+Header
+=====================================*/
+.apart-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4vw;
+    margin-bottom: -8vh;
 }
+
+/*=====================================
+Main
+=====================================*/
+main {
+    height: 84vh;
+    width: 100vw;
+}
+
+.apart-home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8vh;
+} 
+
+.apart-home-main ul {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+} 
+
+.apart-home-main ul li {
+    max-width: 33%;
+    flex-basis: 33%;
+    text-align: center;
+} 
+
+/*=====================================
+Footer
+=====================================*/
+.apart-footer {
+    padding: 4vw 4vw;
+    background-color: #F2F2F2;
+}
+
+.apart-footer .footer-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apart-footer .footer-con ul li {
+    display: inline-block;
+    margin: 0 1vw;
+}
+
+/*=====================================
+About
+=====================================*/
+
+ .apart-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .apart-about p {
+     max-width: 30em;
+     margin-bottom: 1em;
+     line-height: 1.5;
+ }
+ 
