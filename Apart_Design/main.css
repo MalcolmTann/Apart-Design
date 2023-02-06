@@ -52,7 +52,7 @@ main {
 Footer
 =====================================*/
 .apart-footer {
-    padding: 4vw 4vw;
+    padding: 3vw 4vw;
     background-color: #F2F2F2;
 }
 
@@ -69,12 +69,12 @@ Footer
 /*=====================================
 About
 =====================================*/
-
  .apart-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8vh;
  }
  
  .apart-about p {
