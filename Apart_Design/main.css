@@ -22,6 +22,7 @@ Header
 /*=====================================
 Main
 =====================================*/
+
 .hundred-main {
     height: 100vh;
     margin-top: -16vh;
@@ -83,7 +84,44 @@ About
  /*=====================================
 Privacy
 =====================================*/
+.privacy {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin: 5em 0;
+    line-height: 1.5;
+}
 
+.privacy section {
+    width: 50vw;
+}
+
+.privacy h1 {
+    font-size: 1.5rem;
+}
+
+.privacy h1, h2, p {
+    margin-bottom: 1.5em;
+
+}
+
+.privacy li {
+    list-style-position: outside;
+    list-style-type: circle;
+    padding-left: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.privacy a {
+    text-decoration: underline;
+}
+
+.privacy .mt {
+    margin-top: 2.5em;
+}
 
 
 /*=====================================
@@ -123,7 +161,7 @@ Media Queries
      .apart-about p {
         padding: 0 5vw;
      }
- 
+
 }
 
 
@@ -151,7 +189,7 @@ Media Queries
         padding: 8vh;
         margin-top: 0;
     }
-    
+
 }
 
 @media (max-width: 281px) {
