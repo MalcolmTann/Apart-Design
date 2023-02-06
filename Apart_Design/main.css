@@ -26,7 +26,6 @@ Main
 =====================================*/
 main {
     height: 84vh;
-    width: 100vw;
 }
 
 .apart-home-main {
@@ -82,4 +81,3 @@ About
      margin-bottom: 1em;
      line-height: 1.5;
  }
- 
