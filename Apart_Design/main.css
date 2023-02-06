@@ -115,6 +115,10 @@ Main
     Footer
     =====================================*/
 
+    .apart-header {
+        padding: 8vh 6vw;
+    }
+
     .apart-footer .footer-con ul li {
         display: block;
         margin: 4vh 10vw;
