@@ -97,9 +97,9 @@ Media Queries
 
 @media (max-width: 769px) {
 
-/*=====================================
-Main
-=====================================*/
+    /*=====================================
+    Home
+    =====================================*/
 
     .apart-home-main {
         padding: 10vh 0;
@@ -115,6 +115,14 @@ Main
         display: flex;
         align-items: center;
     }
+
+    /*=====================================
+    About
+    =====================================*/
+     
+     .apart-about p {
+        padding: 0 5vw;
+     }
  
 }
 
@@ -133,10 +141,19 @@ Main
         display: block;
         margin: 4vh 10vw;
     }
+
+    .apart-about p {
+        padding: 0 10vw;
+     }
+
+    .hundred-main {
+        height: 100%;
+        padding: 8vh;
+        margin-top: 0;
+    }
     
 }
 
 @media (max-width: 281px) {
-
 
 }
