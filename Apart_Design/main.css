@@ -22,7 +22,7 @@ Header
 /*=====================================
 Main
 =====================================*/
-main {
+.hundred-main {
     height: 100vh;
     margin-top: -16vh;
 }
@@ -94,6 +94,10 @@ Media Queries
 /*=====================================
 Main
 =====================================*/
+
+    .apart-home-main {
+        padding: 10vh 0;
+    }
 
     .apart-home-main ul {
         flex-direction: column;
