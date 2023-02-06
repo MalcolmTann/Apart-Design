@@ -17,7 +17,6 @@ Header
     display: flex;
     justify-content: space-between;
     padding: 4vw 4vw;
-    margin-bottom: -8vh;
 }
 
 /*=====================================
@@ -67,7 +66,7 @@ Footer
 /*=====================================
 About
 =====================================*/
- .apart-about {
+ .apart-about-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,11 +74,20 @@ About
     margin-bottom: 8vh;
  }
  
- .apart-about p {
+ .apart-about-main p {
      max-width: 30em;
      margin-bottom: 1em;
      line-height: 1.5;
  }
+
+ /*=====================================
+Privacy
+=====================================*/
+.privacy-main {
+    min-height: 100vh;
+}
+
+
 
 /*=====================================
 Media Queries
