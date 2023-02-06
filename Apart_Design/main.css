@@ -26,6 +26,7 @@ Main
 =====================================*/
 main {
     height: 84vh;
+    width: 100vw;
 }
 
 .apart-home-main {
@@ -64,3 +65,21 @@ Footer
     display: inline-block;
     margin: 0 1vw;
 }
+
+/*=====================================
+About
+=====================================*/
+
+ .apart-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .apart-about p {
+     max-width: 30em;
+     margin-bottom: 1em;
+     line-height: 1.5;
+ }
+ 
