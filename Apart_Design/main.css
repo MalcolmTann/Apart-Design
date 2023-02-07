@@ -186,13 +186,6 @@ Media Queries
     .apart-about p {
         padding: 0 10vw;
      }
-
-    .hundred-main {
-        height: 100%;
-        padding: 8vh;
-        margin-top: 0;
-    }
-
 }
 
 @media (max-width: 281px) {
