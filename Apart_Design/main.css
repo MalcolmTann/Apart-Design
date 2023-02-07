@@ -69,15 +69,14 @@ About
 =====================================*/
  .apart-about {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 5vh;
  }
  
  .apart-about p {
      max-width: 30em;
-     margin-bottom: 1em;
      line-height: 1.5;
  }
 
@@ -162,6 +161,10 @@ Media Queries
         padding: 0 5vw;
      }
 
+     .apart-about {
+        flex-direction: column;
+     }
+
 }
 
 
@@ -179,10 +182,6 @@ Media Queries
         display: block;
         margin: 4vh 10vw;
     }
-
-    .apart-about p {
-        padding: 0 10vw;
-     }
 
     .hundred-main {
         height: 100%;
