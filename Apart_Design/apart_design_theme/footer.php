@@ -2,18 +2,18 @@
         <div class="footer-con">
             <ul>
                 <li>
-                    <a href="#" title="See Terms and Conditions">Terms</a>
+                    <a href="terms-and-conditions" title="See Terms and Conditions">Terms</a>
                 </li>
                 <li>
-                    <a href="#" title="See Privacy Policy">Privacy</a>
+                    <a href="privacy-policy" title="See Privacy Policy">Privacy</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#" title="To About page">About</a>
+                    <a href="about" title="To About page">About</a>
                 </li>
                 <li>
-                    <a href="#" title="To Contact page">Contact</a>
+                    <a href="contact" title="To Contact page">Contact</a>
                 </li>
             </ul>
         </div>

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="apart-header">
-        <a href="#" title="To Apart Design Homepage">Apart Design</a>
+        <a href="home" title="To Apart Design Homepage">Apart Design</a>
         <nav>
             <a href="#" title="go to cart page">Cart</a>
         </nav>
