@@ -6,10 +6,11 @@ function modynamics_title_tag() {
 
 }
 
-function aparttheme_add_woocommerce_support() {
-	add_theme_support( 'woocommerce' );
-}
-add_action( 'after_setup_theme', 'aparttheme_add_woocommerce_support' );
+// function aparttheme_add_woocommerce_support() {
+// 	add_theme_support( 'woocommerce' );
+// }
+
+// add_action( 'after_setup_theme', 'aparttheme_add_woocommerce_support' );
 
 function apart_style_links() {
 
@@ -17,5 +18,19 @@ function apart_style_links() {
 }
 
 add_action('wp_enqueue_scripts', 'apart_style_links');
+
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+add_action('woocommerce_before_main_content', 'aparttheme_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'aparttheme_wrapper_end', 10);
+
+function aparttheme_wrapper_start() {
+    echo '<section id="main">';
+}
+
+function aparttheme_wrapper_end() {
+    echo '</section>';
+}
 
 ?>
