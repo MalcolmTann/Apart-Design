@@ -124,6 +124,58 @@ Privacy
 
 
 /*=====================================
+No Product
+=====================================*/
+
+.fly-main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fly-con img {
+    width: 100px;
+    height: auto;
+}
+
+.fly-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: flyanimateX 5s ease-in-out forwards;
+    width: 100%;
+    height: 100%;
+    transform: translateX(60%);
+}
+
+.y-con {
+    animation: flyanimateY 1s ease-in-out infinite;
+    transform: translateY(-300%);
+}
+
+.fly-img {
+    animation: flyanimateR 1s ease-in-out infinite;
+    transform:rotate(145deg)
+}
+
+@keyframes flyanimateX {
+    0% {transform: translateX(-55%)}
+	50% {transform: translateX(60%)}
+}
+
+@keyframes flyanimateY {
+    50% {transform: translateY(300%)}
+}
+
+@keyframes flyanimateR {
+    
+    25% {transform: rotate(180deg)}
+    75% {transform: rotate(90deg)}
+}
+
+/*=====================================
 Media Queries
 =====================================*/
 
